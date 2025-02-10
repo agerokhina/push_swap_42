@@ -1,52 +1,31 @@
-# Prerequisites
-*.d
-
-# Object files
+# Исключение временных и сборочных файлов
+build/
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
 *.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
 *.so
-*.so.*
 *.dylib
-
-# Executables
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+*.dll
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Лог-файлы
+*.log
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Конфигурационные файлы IDE и системы
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Файлы CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Push Swap Visualizer сборочные файлы
+push_swap_visualizer
+imgui.ini
+
+# Исполняемые файлы
+push_swap
+checker_linux
+checker_Mac
